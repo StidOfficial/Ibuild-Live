@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ibuild.exe" version="1.0.0.0" publicKeyToken="71ae9fa1e1ca9c23" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon(2).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ibuild" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ibuild.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ibuild.exe" size="840704">
+      <assemblyIdentity name="ibuild" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oJh5VjVOoi9aK9bxjRxH1cgLaYAZPFENx9cqnMZ6AHw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon(2).ico" size="142553">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MjYrxHQi7C1z+Osm8UFohH3fSmgBeeFscbR3UqFQKg4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ibuild.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ASUS-PC\Quentin" issuerKeyHash="8c0c9c6e588888038a153d10db62d119be7b2348" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Oa3bTXvN0HIRYX3Wc9d6sLIvVmhFMLKvaS3OxGpg+Zw=</DigestValue></Reference></SignedInfo><SignatureValue>rcqUGESqz9z5veAm6DZWUJyBbVLozRzHXG0Y0TzbmgEAaD0FZ1NCn1OMQy+FW0ysotWujuSBeGh52f0EkM5/KWCxAUFyhX3Sbcg0u1gCzn2I8zIeVomoop7FaBBsqfNpoNt7m/z3K4k1vM0MdO2Ueu7aMjUKBQDtCkuekGTzZ+E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ubqBsA7rzX3gGVpR7VNi6nGre4q8rGqlPAONu0SdRKojxfnfqPX3VZNv06U04HLfd2se/8KhiSAddjjbAQl2tpeSt+KzXr0EBqFcNLbICmAogHDtt+3erMAY3i/NQBogDBhpzIAv12LK0p5IEU1G1CspMu4CMvQeOjCLdFlyEp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9cf9606ac4ce2d69afb2304568562fb2b07ad773d67d611172d0cd7b4ddbad39" Description="" Url=""><as:assemblyIdentity name="ibuild.exe" version="1.0.0.0" publicKeyToken="71ae9fa1e1ca9c23" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASUS-PC\Quentin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W6ndVaJKlbbIQmVs0c87biDAtnNBhWmvSp6pD8D9Kcs=</DigestValue></Reference></SignedInfo><SignatureValue>nK7GlYpEloEak0Jgdp4UKtVCKIv/DLp2hQNEKwfQ20f20WtS3QE2gkFgJHzWsQoJQW9Tpi4TQ5nAZldsqeQ1V6ophkS68KBrMGR967mPlBr9+r6f22ofTSmsLoBpXmsHqCFoukBJbhSSCFRaeK6RcyMF1q9Ok3UCWlf6xYRLTiU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ubqBsA7rzX3gGVpR7VNi6nGre4q8rGqlPAONu0SdRKojxfnfqPX3VZNv06U04HLfd2se/8KhiSAddjjbAQl2tpeSt+KzXr0EBqFcNLbICmAogHDtt+3erMAY3i/NQBogDBhpzIAv12LK0p5IEU1G1CspMu4CMvQeOjCLdFlyEp0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQbV1cPqvnurZHZoyJDBq0ejANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AQQBTAFUAUwAtAFAAQwBcAFEAdQBlAG4AdABpAG4wHhcNMTMxMjIyMjEzOTU1WhcNMTQxMjIzMDMzOTU1WjApMScwJQYDVQQDHh4AQQBTAFUAUwAtAFAAQwBcAFEAdQBlAG4AdABpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALm6gbAO68194BlaUe1TYupxq3uKvKxqpTwDjbtEnUSqI8X536j191WTb9OlNOBy33drHv/CoYkgHXY42wEJdraXkrfis169BAahXDS2yApgKIBw7bft3qzAGN4vzUAaIAwYacyAL9diytKeSBFNRtQrKTLuAjL0Hjowi3RZchKdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAAtN7jpl3txsFXGCcCaHjag8UXgIC//oFe4MlnzowA+xFNXdENyKQIf1MROtjjvLDtTqQWEIANLpaZAfljPOivL/VUDX4c0G0p1KcrppBD7T81/Osy8WzZRELs/95HEMpQerfvhhBF9VMFMDXEE1Mthp7+DxlrNB8OkC1bHZqP3E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

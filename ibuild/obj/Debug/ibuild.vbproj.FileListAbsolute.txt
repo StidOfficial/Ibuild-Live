@@ -1,0 +1,16 @@
+D:\Visual Studio 2013\Projects\ibuild\ibuild\bin\Debug\ibuild.exe.config
+D:\Visual Studio 2013\Projects\ibuild\ibuild\bin\Debug\ibuild.exe
+D:\Visual Studio 2013\Projects\ibuild\ibuild\bin\Debug\ibuild.pdb
+D:\Visual Studio 2013\Projects\ibuild\ibuild\bin\Debug\ibuild.xml
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.Resources.resources
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.vbproj.GenerateResource.Cache
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.exe
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.xml
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.pdb
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.live.resources
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.loading.resources
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.vbprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\ibuild\ibuild\bin\Debug\ibuild.exe.manifest
+D:\Visual Studio 2013\Projects\ibuild\ibuild\bin\Debug\ibuild.application
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.exe.manifest
+D:\Visual Studio 2013\Projects\ibuild\ibuild\obj\Debug\ibuild.application
